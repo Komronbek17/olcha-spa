@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+.select-qty {
+  width: 83px;
+  height: 30px;
+  background-image: url("../icons/Iconselect-arrows.svg");
+  background-position-y: 50%;
+  background-position-x: 80%;
+}
+
+.active-router {
+  color: #eb1537;
+
+  svg path {
+    fill: #eb1537
+  }
+}
+
+.product-page-splide {
+  .splide__pagination__page.is-active {
+    background: #eb1537;
+    transform: none;
+  }
+}

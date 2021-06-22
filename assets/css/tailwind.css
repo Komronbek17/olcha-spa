@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.red-btn {
+    @apply p-3 rounded-lg bg-c-red-1 w-full text-white font-font-550 text-sm sm:text-base;
+}
+.block-text {
+    @apply flex justify-between items-center mb-4;
+}
+
+.text-title {
+    @apply font-bold text-2xl text-c-gray-6;
+}
+
+.text-see {
+    @apply text-sm text-c-blue-1 font-helvetica font-550;
+}
+
+.categories {
+    @apply rounded-xl flex items-center bg-c-gray-1;
+}
+
+.card {
+    @apply rounded-xl bg-white p-3 border border-solid border-c-gray-1;
+}
+
+.card-title {
+    @apply text-base text-c-gray-6 mt-2 font-550;
+}
+
+.card-text {
+    @apply text-base mt-2 mb-1 text-c-gray-5 font-550;
+}
+
+.card-price {
+    @apply text-lg text-c-gray-6 font-bold;
+}
+
+.categories {
+    max-width: 273px;
+}
+
+.card {
+    max-width: 162px;
+}
+
+.select-option-class{
+    width: 90vw !important;
+}
+
+.pink-grad {
+    background: linear-gradient(179.38deg, #fc3353 1.19%, #b61b37 99.47%);
+}
+
+.my-shadow {
+    box-shadow: 0px -4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.font-550 {
+    font-weight: 550;
+}
+
+* {
+    box-sizing: border-box;
+}

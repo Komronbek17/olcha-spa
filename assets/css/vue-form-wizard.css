@@ -1,0 +1,15 @@
+  .vue-form-wizard .wizard-progress-bar{
+    width:2px;
+  }
+  .vue-form-wizard.md .wizard-icon-circle{
+    width:20px;
+    height: 20px;
+  }
+  .vue-form-wizard.md .wizard-navigation .wizard-progress-with-circle{
+    position: relative;
+    top:15px;
+  }
+
+  .wizard-header{
+    display:none
+  }
